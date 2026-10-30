@@ -78,7 +78,7 @@ The NAT Network lets all VMs on the same subnet talk to each other, and reach th
 
 7-Zip is needed to extract the Kali VM archive (`.7z`). VirtualBox was downloaded from the official site and installed. The VirtualBox Manager opens correctly:
 
-!(screenshots/01-virtualbox-installed.png)
+![VirtualBox Manager](screenshots/01-virtualbox-installed.png)
 
 ## Step 3. Create the NAT Network (10.0.0.0/24)
 
