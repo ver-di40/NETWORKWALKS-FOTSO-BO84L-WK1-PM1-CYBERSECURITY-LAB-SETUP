@@ -1,4 +1,4 @@
-
+<div align="center">
 
 # 🔐 Cybersecurity Lab Environment Setup
 
@@ -59,14 +59,13 @@ The NAT Network lets all VMs on the same subnet talk to each other, and reach th
 |---|---|
 | 🖥️ Host OS | Windows |
 | 🧰 Hypervisor | Oracle VirtualBox |
-| 🐉 Attacker VM | Kali Linux 2026.3 (`kali-linux-2026.3-virtualbox-amd64`) |
+| 🐉 Attacker VM | Kali Linux 2026.3  |
 | 🧠 Kali RAM | 2048 MB |
 | 🌐 Network type | NAT Network, name `NatNetwork` |
 | 📡 Subnet | `10.0.0.0/24` (DHCP server enabled on the NAT network) |
 | 🐧 Kali IP address | `10.0.0.2/24` (static) |
 | 🚪 Gateway | `10.0.0.1` |
 | 🌍 DNS | `8.8.8.8` |
-| 🔌 Adapter | Intel PRO/1000 MT Desktop (82540EM) |
 | 📁 Shared folder | Host `Downloads` (full access, auto-mount) |
 | 📋 Clipboard / Drag & Drop | Bidirectional |
 | 📸 Snapshot | `Kali_Clean_Config_10.0.0.2` |
